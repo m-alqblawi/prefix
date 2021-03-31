@@ -59,7 +59,3 @@ print("Prefix: ", infixToPrefix("A + B - C * D + ( E ^ F ) * G / H / I * J + K")
 print("=====" * 30)
 
 
-print(f"Infix: A /(B + C) * D  => {A/(B + C ) * D}")
-print("Postfix: ", infixToPostfix("A / ( B + C ) * D"), " => ", postFixEvaluate("1 2 3 + / 4 *"))
-print("Prefix: ", infixToPrefix("A / ( B + C ) * D"), " => ", preFixEvaluate("* / 1 + 2 3 4"))
-print("=====" * 30)
